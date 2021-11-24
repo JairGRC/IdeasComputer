@@ -33,24 +33,16 @@
                 <div class="content-margins">
                     <div class="row">
                         <div class="col-md-5 hidden-xs hidden-sm">
-                            <div class="entry"><b>contact us:</b> <a href="tel:+35235551238745">+3  (523) 555 123 8745</a></div>
-                            <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">office@exzo.com</a></div>
+                            <div class="entry"><b>Contactanos:</b> <a href="tel:+35235551238745">+51 995560005 / +51 949381418</a></div>
+                            <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">ideas_computers@hotmail.com</a></div>
                         </div>
                         <div class="col-md-7 col-md-text-right">
-                            <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a class="open-popup" data-rel="2"><b>register</b></a></div>
-                            <div class="entry language">
-                                <div class="title"><b>en</b></div>
-                                <div class="language-toggle header-toggle-animation">
-                                    <a href="#">fr</a>
-                                    <a href="index1.html">ru</a>
-                                    <a href="index1.html">it</a>
-                                    <a href="index1.html">sp</a>
-                                </div>
-                            </div>
-                            <div class="entry hidden-xs hidden-sm"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></div>
+                            <div class="entry"><a class="open-popup" data-rel="1"><b>Login</b></a>&nbsp; or &nbsp;<a class="open-popup" data-rel="2"><b>Registro</b></a></div>
+                            
+                            
                             <div class="entry hidden-xs hidden-sm cart">
                                 <a href="cart.html">
-                                    <b class="hidden-xs">Your bag</b>
+                                    <b class="hidden-xs">Tu carrito</b>
                                     <span class="cart-icon">
                                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                                         <span class="cart-label">5</span>
@@ -180,10 +172,10 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about1.html">about us</a>
+                                            <a href="about1.html">Acerca de</a>
                                         </li>
                                         <li class="megamenu-wrapper">
-                                            <a href="products1.html">products</a>
+                                            <a href="products1.html">Productos</a>
                                             <div class="menu-toggle"></div>
                                             <div class="megamenu">
                                                 <div class="links">
@@ -319,10 +311,10 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="services1.html">Services</a>
+                                            <a href="services1.html">Servicios</a>
                                         </li>
                                         <li>
-                                            <a href="blog3.html">blog</a>
+                                            <a href="blog3.html">Blog</a>
                                             <div class="menu-toggle"></div>
                                             <ul>
                                                 <li>
@@ -342,7 +334,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="gallery1.html">gallery</a>
+                                            <a href="gallery1.html">Galeria</a>
                                             <div class="menu-toggle"></div>
                                             <ul>
                                                 <li><a href="gallery1.html">Gallery 1</a></li>
@@ -350,7 +342,7 @@
                                             </ul>
                                         </li>
                                         <li class="megamenu-wrapper">
-                                            <a href="#">Pages</a>
+                                            <a href="#">Paginas</a>
                                             <div class="menu-toggle"></div>
                                             <div class="megamenu">
                                                 <div class="links">
@@ -443,7 +435,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li><a href="contact1.html">contact</a></li>
+                                        <li><a href="contact1.html">Contacto</a></li>
                                     </ul>
                                     <div class="navigation-title">
                                         Navigation
@@ -2769,12 +2761,12 @@
                                 <div class="row">
                                     <div class="col-xs-6">
                                         <a href="#">home</a>
-                                        <a href="#">about us</a>
-                                        <a href="#">products</a>
-                                        <a href="#">services</a>
+                                        <a href="#">Acerca de</a>
+                                        <a href="#">Productos</a>
+                                        <a href="#">Servicios</a>
                                         <a href="#">blog</a>
-                                        <a href="#">gallery</a>
-                                        <a href="#">contact</a>
+                                        <a href="#">Galeria</a>
+                                        <a href="#">Contacto</a>
                                     </div>
                                     <div class="col-xs-6">
                                         <a href="#">privacy policy</a>
