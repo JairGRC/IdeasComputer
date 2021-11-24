@@ -678,7 +678,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-8.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-8.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -716,7 +716,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-9.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-9.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -754,7 +754,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-10.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-10.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -1264,7 +1264,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-10.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-10.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -1755,7 +1755,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-25.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-25.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -1921,7 +1921,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-27.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-27.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -2754,7 +2754,7 @@
                 <div class="footer-top">
                     <div class="row">
                         <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
-                            <img src="img/logo-1.png" alt="" />
+                            <img src="{{asset('web/img/logo-1.png')}}" alt="" />
                             <div class="empty-space col-xs-b20"></div>
                             <div class="simple-article size-2 light fulltransparent">Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet posuere orci dapibus auctor</div>
                             <div class="empty-space col-xs-b20"></div>
