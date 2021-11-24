@@ -640,7 +640,7 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-7.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-7.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
@@ -1932,7 +1932,7 @@
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -1968,18 +1968,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-25.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-25.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -2011,18 +2011,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-26.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-26.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -2053,18 +2053,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-25.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-25.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -2096,18 +2096,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-27.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-27.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -2139,18 +2139,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-26.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-26.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -2457,7 +2457,7 @@
                                         <div class="swiper-slide">
                                             <div class="banner-shortcode style-2">
                                                 <div class="content">
-                                                    <div class="background" style="background-image: url(img/thumbnail-11.jpg);"></div>
+                                                    <div class="background" style="background-image: url(web/img/thumbnail-11.jpg);"></div>
                                                     <div class="description valign-middle">
                                                         <div class="valign-middle-content">
                                                             <div class="simple-article size-1 color"><a href="#">GADGETS</a></div>
@@ -2471,7 +2471,7 @@
                                         <div class="swiper-slide">
                                             <div class="banner-shortcode style-2">
                                                 <div class="content">
-                                                    <div class="background" style="background-image: url(img/thumbnail-11.jpg);"></div>
+                                                    <div class="background" style="background-image: url(web/img/thumbnail-11.jpg);"></div>
                                                     <div class="description valign-middle">
                                                         <div class="valign-middle-content">
                                                             <div class="simple-article size-1 color"><a href="#">GADGETS</a></div>
@@ -2485,7 +2485,7 @@
                                         <div class="swiper-slide">
                                             <div class="banner-shortcode style-2">
                                                 <div class="content">
-                                                    <div class="background" style="background-image: url(img/thumbnail-11.jpg);"></div>
+                                                    <div class="background" style="background-image: url(web/img/thumbnail-11.jpg);"></div>
                                                     <div class="description valign-middle">
                                                         <div class="valign-middle-content">
                                                             <div class="simple-article size-1 color"><a href="#">GADGETS</a></div>
@@ -2499,7 +2499,7 @@
                                         <div class="swiper-slide">
                                             <div class="banner-shortcode style-2">
                                                 <div class="content">
-                                                    <div class="background" style="background-image: url(img/thumbnail-11.jpg);"></div>
+                                                    <div class="background" style="background-image: url(web/img/thumbnail-11.jpg);"></div>
                                                     <div class="description valign-middle">
                                                         <div class="valign-middle-content">
                                                             <div class="simple-article size-1 color"><a href="#">GADGETS</a></div>
@@ -2519,7 +2519,7 @@
                             <div class="col-sm-6 col-md-12">
                                 <div class="h4 col-xs-b25">most viewed</div>
                                 <div class="product-shortcode style-4 clearfix">
-                                    <a class="preview" href="#"><img src="img/product-28.jpg" alt="" /></a>
+                                    <a class="preview" href="#"><img src="{{asset('web/img/product-28.jpg')}}" alt="" /></a>
                                     <div class="description">
                                         <div class="simple-article color size-1 col-xs-b5"><a href="#">WIRELESS</a></div>
                                         <h6 class="h6 col-xs-b10"><a href="#">wireless headphones</a></h6>
@@ -2528,7 +2528,7 @@
                                 </div>
                                 <div class="col-xs-b10"></div>
                                 <div class="product-shortcode style-4 clearfix">
-                                    <a class="preview" href="#"><img src="img/product-29.jpg" alt="" /></a>
+                                    <a class="preview" href="#"><img src="{{asset('web/img/product-29.jpg')}}" alt="" /></a>
                                     <div class="description">
                                         <div class="simple-article color size-1 col-xs-b5"><a href="#">CASES</a></div>
                                         <h6 class="h6 col-xs-b10"><a href="#">earphones case</a></h6>
@@ -2537,7 +2537,7 @@
                                 </div>
                                 <div class="col-xs-b10"></div>
                                 <div class="product-shortcode style-4 clearfix">
-                                    <a class="preview" href="#"><img src="img/product-30.jpg" alt="" /></a>
+                                    <a class="preview" href="#"><img src="{{asset('web/img/product-30.jpg')}}" alt="" /></a>
                                     <div class="description">
                                         <div class="simple-article color size-1 col-xs-b5"><a href="#">CASES</a></div>
                                         <h6 class="h6 col-xs-b10"><a href="#">headphones case</a></h6>
@@ -2563,18 +2563,18 @@
                                                     <div class="h6 animate-to-green"><a href="#">high-end spectre x360</a></div>
                                                 </div>
                                                 <div class="preview">
-                                                    <img src="img/product-26.jpg" alt="">
+                                                    <img src="{{asset('web/img/product-26.jpg')}}" alt="">
                                                     <div class="preview-buttons valign-middle">
                                                         <div class="valign-middle-content">
                                                             <a class="button size-2 style-2" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                     <span class="text">Learn More</span>
                                                                 </span>
                                                             </a>
                                                             <a class="button size-2 style-3" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                     <span class="text">Add To Cart</span>
                                                                 </span>
                                                             </a>
@@ -2602,18 +2602,18 @@
                                                     <div class="h6 animate-to-green"><a href="#">high-end spectre x360</a></div>
                                                 </div>
                                                 <div class="preview">
-                                                    <img src="img/product-27.jpg" alt="">
+                                                    <img src="{{asset('web/img/product-27.jpg')}}" alt="">
                                                     <div class="preview-buttons valign-middle">
                                                         <div class="valign-middle-content">
                                                             <a class="button size-2 style-2" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                     <span class="text">Learn More</span>
                                                                 </span>
                                                             </a>
                                                             <a class="button size-2 style-3" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                     <span class="text">Add To Cart</span>
                                                                 </span>
                                                             </a>
@@ -2641,18 +2641,18 @@
                                                     <div class="h6 animate-to-green"><a href="#">high-end spectre x360</a></div>
                                                 </div>
                                                 <div class="preview">
-                                                    <img src="img/product-26.jpg" alt="">
+                                                    <img src="{{asset('web/img/product-26.jpg')}}" alt="">
                                                     <div class="preview-buttons valign-middle">
                                                         <div class="valign-middle-content">
                                                             <a class="button size-2 style-2" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                     <span class="text">Learn More</span>
                                                                 </span>
                                                             </a>
                                                             <a class="button size-2 style-3" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                     <span class="text">Add To Cart</span>
                                                                 </span>
                                                             </a>
@@ -2680,18 +2680,18 @@
                                                     <div class="h6 animate-to-green"><a href="#">high-end spectre x360</a></div>
                                                 </div>
                                                 <div class="preview">
-                                                    <img src="img/product-25.jpg" alt="">
+                                                    <img src="{{asset('web/img/product-25.jpg')}}" alt="">
                                                     <div class="preview-buttons valign-middle">
                                                         <div class="valign-middle-content">
                                                             <a class="button size-2 style-2" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                     <span class="text">Learn More</span>
                                                                 </span>
                                                             </a>
                                                             <a class="button size-2 style-3" href="#">
                                                                 <span class="button-wrapper">
-                                                                    <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                    <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                     <span class="text">Add To Cart</span>
                                                                 </span>
                                                             </a>
@@ -2722,7 +2722,7 @@
                                 <div class="h4 col-xs-b25">latest post</div>
                                 <div class="row m5 text-center">
                                     <div class="blog-shortcode style-1">
-                                        <a href="#" class="preview simple-mouseover"><img src="img/thumbnail-12.jpg" alt="" /></a>
+                                        <a href="#" class="preview simple-mouseover"><img src="{{asset('web/img/thumbnail-12.jpg')}}" alt="" /></a>
                                         <div class="description">
                                             <div class="simple-article size-1 grey col-xs-b5">APR 07 / 15 &nbsp;&nbsp;&nbsp;<a href="#" class="color">GADGETS</a></div>
                                             <h6 class="h6 col-xs-b10"><a href="#">Phasellus rhoncus in</a></h6>
@@ -2731,7 +2731,7 @@
                                     </div>
                                     
                                     <div class="blog-shortcode style-1">
-                                        <a href="#" class="preview simple-mouseover"><img src="img/thumbnail-13.jpg" alt="" /></a>
+                                        <a href="#" class="preview simple-mouseover"><img src="{{asset('web/img/thumbnail-13.jpg')}}" alt="" /></a>
                                         <div class="description">
                                             <div class="simple-article size-1 grey col-xs-b5">APR 07 / 15 &nbsp;&nbsp;&nbsp;<a href="#" class="color">GADGETS</a></div>
                                             <h6 class="h6 col-xs-b10"><a href="#">Phasellus rhoncus in</a></h6>
@@ -2793,21 +2793,21 @@
                             <h6 class="h6 light">some posts</h6>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="img/thumbnail-1.jpg" alt="" /></a>
+                                <a class="image" href="#"><img src="{{asset('web/img/thumbnail-1.jpg')}}" alt="" /></a>
                                 <div class="description">
                                     <div class="date">apr 07 / 15</div>
                                     <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
                                 </div>
                             </div>
                             <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="img/thumbnail-2.jpg" alt="" /></a>
+                                <a class="image" href="#"><img src="{{asset('web/img/thumbnail-2.jpg')}}" alt="" /></a>
                                 <div class="description">
                                     <div class="date">apr 07 / 15</div>
                                     <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
                                 </div>
                             </div>
                             <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="img/thumbnail-3.jpg" alt="" /></a>
+                                <a class="image" href="#"><img src="{{asset('web/img/thumbnail-3.jpg')}}" alt="" /></a>
                                 <div class="description">
                                     <div class="date">apr 07 / 15</div>
                                     <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
@@ -2848,12 +2848,12 @@
                         </div>
                         <div class="col-lg-4 col-xs-text-center col-lg-text-right">
                             <div class="footer-payment-icons">
-                                <a class="entry"><img src="img/thumbnail-4.jpg" alt="" /></a>
-                                <a class="entry"><img src="img/thumbnail-5.jpg" alt="" /></a>
-                                <a class="entry"><img src="img/thumbnail-6.jpg" alt="" /></a>
-                                <a class="entry"><img src="img/thumbnail-7.jpg" alt="" /></a>
-                                <a class="entry"><img src="img/thumbnail-8.jpg" alt="" /></a>
-                                <a class="entry"><img src="img/thumbnail-9.jpg" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-4.jpg')}}" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-5.jpg')}}" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-6.jpg')}}" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-7.jpg')}}" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-8.jpg')}}" alt="" /></a>
+                                <a class="entry"><img src="{{asset('web/img/thumbnail-9.jpg')}}" alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -2885,7 +2885,7 @@
                         <div class="col-sm-6 text-right">
                             <a class="button size-2 style-3" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">submit</span>
                                 </span>
                             </a>  
@@ -2898,7 +2898,7 @@
                         <div class="col-sm-4 col-xs-b10 col-sm-b0">
                             <a class="button facebook-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">facebook</span>
                                 </span>
                             </a>
@@ -2906,7 +2906,7 @@
                         <div class="col-sm-4 col-xs-b10 col-sm-b0">
                             <a class="button twitter-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">twitter</span>
                                 </span>
                             </a>
@@ -2914,7 +2914,7 @@
                         <div class="col-sm-4">
                             <a class="button google-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">google+</span>
                                 </span>
                             </a>
@@ -2949,7 +2949,7 @@
                         <div class="col-sm-5 text-right">
                             <a class="button size-2 style-3" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">submit</span>
                                 </span>
                             </a>  
@@ -2962,7 +2962,7 @@
                         <div class="col-sm-4 col-xs-b10 col-sm-b0">
                             <a class="button facebook-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">facebook</span>
                                 </span>
                             </a>
@@ -2970,7 +2970,7 @@
                         <div class="col-sm-4 col-xs-b10 col-sm-b0">
                             <a class="button twitter-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">twitter</span>
                                 </span>
                             </a>
@@ -2978,7 +2978,7 @@
                         <div class="col-sm-4">
                             <a class="button google-button size-2 style-4 block" href="#">
                                 <span class="button-wrapper">
-                                    <span class="icon"><img src="img/icon-4.png" alt="" /></span>
+                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                     <span class="text">google+</span>
                                 </span>
                             </a>
@@ -3003,31 +3003,31 @@
                                    <div class="swiper-wrapper">
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-4.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-4.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-5.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-5.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-6.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-6.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-7.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-7.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-8.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-8.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-9.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-9.jpg"></div>
                                        </div>
                                        <div class="swiper-slide">
                                             <div class="swiper-lazy-preloader"></div>
-                                            <div class="product-big-preview-entry swiper-lazy" data-background="img/product-preview-10.jpg"></div>
+                                            <div class="product-big-preview-entry swiper-lazy" data-background="web/img/product-preview-10.jpg"></div>
                                        </div>
                                    </div>
                                 </div>
@@ -3040,37 +3040,37 @@
                                    <div class="swiper-wrapper">
                                        <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-4_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-4_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-5_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-5_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-6_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-6_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-7_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-7_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-8_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-8_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-9_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-9_.jpg')}}" alt="" />
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="product-small-preview-entry">
-                                                <img src="img/product-preview-10_.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-preview-10_.jpg')}}" alt="" />
                                             </div>
                                        </div>
 
