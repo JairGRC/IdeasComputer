@@ -240,13 +240,13 @@
                                                                     <div class="buttons-wrapper">
                                                                         <a class="button size-2 style-2" href="product.html">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                                 <span class="text">Learn More</span>
                                                                             </span>
                                                                         </a>
                                                                         <a class="button size-2 style-3" href="#">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                                 <span class="text">Add To Cart</span>
                                                                             </span>
                                                                         </a>
@@ -268,10 +268,10 @@
                                                                         <div class="swiper-button-next style-1"></div>
                                                                         <div class="swiper-wrapper">
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-60.jpg')}}" alt="" />
                                                                             </div>
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-61.jpg')}}" alt="" />
                                                                             </div>
                                                                         </div>
                                                                     </div> 
@@ -300,13 +300,13 @@
                                                                     <div class="buttons-wrapper">
                                                                         <a class="button size-2 style-2" href="product.html">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                                 <span class="text">Learn More</span>
                                                                             </span>
                                                                         </a>
                                                                         <a class="button size-2 style-3" href="#">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                                 <span class="text">Add To Cart</span>
                                                                             </span>
                                                                         </a>
@@ -375,10 +375,10 @@
                                                                         <div class="swiper-button-next style-1"></div>
                                                                         <div class="swiper-wrapper">
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-61.jpg')}}" alt="" />
                                                                             </div>
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-59.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-59.jpg')}}" alt="" />
                                                                             </div>
                                                                         </div>
                                                                     </div> 
@@ -407,13 +407,13 @@
                                                                     <div class="buttons-wrapper">
                                                                         <a class="button size-2 style-2" href="product.html">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                                 <span class="text">Learn More</span>
                                                                             </span>
                                                                         </a>
                                                                         <a class="button size-2 style-3" href="#">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                                 <span class="text">Add To Cart</span>
                                                                             </span>
                                                                         </a>
@@ -422,7 +422,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-xs-6">
-                                                            <div class="banner-shortcode style-3 rounded-image text-center" style="background-image: url(img/background-11.jpg);">
+                                                            <div class="banner-shortcode style-3 rounded-image text-center" style="background-image: url(web/img/background-11.jpg);">
                                                                 <div class="valign-middle-cell">
                                                                     <div class="valign-middle-content">
                                                                         <div class="simple-article size-5 light transparent uppercase col-xs-b5"><span class="color">30%</span>DISCOUNT</div>
@@ -430,7 +430,7 @@
                                                                         <div class="simple-article size-3 light transparent col-xs-b30">Vivamus in tempor eros. Phasellus rhoncus in nunc sit amet mattis. Integer in ipsum vestibulum, molestie arcu ac</div>
                                                                         <a class="button size-2 style-1" href="#">
                                                                             <span class="button-wrapper">
-                                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                                 <span class="text">learn more</span>
                                                                             </span>
                                                                         </a>
@@ -515,13 +515,13 @@
                                             <div class="buttons-wrapper">
                                                 <a class="button size-2 style-2" href="#">
                                                     <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                        <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                         <span class="text">Learn More</span>
                                                     </span>
                                                 </a>
                                                 <a class="button size-2 style-3" href="#">
                                                     <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                        <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                         <span class="text">Add To Cart</span>
                                                     </span>
                                                 </a>
@@ -535,15 +535,15 @@
                                 <div class="product-preview-shortcode">
                                     <div class="preview">
                                         <div class="swiper-lazy-preloader"></div>
-                                        <div class="entry full-size swiper-lazy active" data-background="img/product-preview-1.jpg"></div>
-                                        <div class="entry full-size swiper-lazy" data-background="img/product-preview-2.jpg"></div>
-                                        <div class="entry full-size swiper-lazy" data-background="img/product-preview-3.jpg"></div>
+                                        <div class="entry full-size swiper-lazy active" data-background="web/img/product-preview-1.jpg"></div>
+                                        <div class="entry full-size swiper-lazy" data-background="web/img/product-preview-2.jpg"></div>
+                                        <div class="entry full-size swiper-lazy" data-background="web/img/product-preview-3.jpg"></div>
                                     </div>
                                     <div class="sidebar valign-middle" data-swiper-parallax-x="-300">
                                         <div class="valign-middle-content">
-                                            <div class="entry active"><img src="img/product-4.png" alt="" /></div>
-                                            <div class="entry"><img src="img/product-5.png" alt="" /></div>
-                                            <div class="entry"><img src="img/product-6.png" alt="" /></div>
+                                            <div class="entry active"><img src="{{asset('web/img/product-4.png')}}" alt="" /></div>
+                                            <div class="entry"><img src="{{asset('web/img/product-5.png')}}" alt="" /></div>
+                                            <div class="entry"><img src="{{asset('web/img/product-6.png')}}" alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -573,13 +573,13 @@
                                             <div class="buttons-wrapper">
                                                 <a class="button size-2 style-2" href="#">
                                                     <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                        <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                         <span class="text">Learn More</span>
                                                     </span>
                                                 </a>
                                                 <a class="button size-2 style-3" href="#">
                                                     <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                        <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                         <span class="text">Add To Cart</span>
                                                     </span>
                                                 </a>
@@ -593,15 +593,15 @@
                                 <div class="product-preview-shortcode">
                                     <div class="preview">
                                         <div class="swiper-lazy-preloader"></div>
-                                        <div class="entry full-size swiper-lazy active" data-background="img/product-preview-1.jpg"></div>
-                                        <div class="entry full-size swiper-lazy" data-background="img/product-preview-2.jpg"></div>
-                                        <div class="entry full-size swiper-lazy" data-background="img/product-preview-3.jpg"></div>
+                                        <div class="entry full-size swiper-lazy active" data-background="web/img/product-preview-1.jpg"></div>
+                                        <div class="entry full-size swiper-lazy" data-background="web/img/product-preview-2.jpg"></div>
+                                        <div class="entry full-size swiper-lazy" data-background="web/img/product-preview-3.jpg"></div>
                                     </div>
                                     <div class="sidebar valign-middle" data-swiper-parallax-x="-300">
                                         <div class="valign-middle-content">
-                                            <div class="entry active"><img src="img/product-4.png" alt="" /></div>
-                                            <div class="entry"><img src="img/product-5.png" alt="" /></div>
-                                            <div class="entry"><img src="img/product-6.png" alt="" /></div>
+                                            <div class="entry active"><img src="{{asset('web/img/product-4.png')}}" alt="" /></div>
+                                            <div class="entry"><img src="{{asset('web/img/product-5.png')}}" alt="" /></div>
+                                            <div class="entry"><img src="{{asset('web/img/product-6.png')}}" alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -645,13 +645,13 @@
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -683,13 +683,13 @@
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -721,13 +721,13 @@
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -759,13 +759,13 @@
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -792,18 +792,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-11.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-11.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -830,18 +830,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-12.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-12.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -872,18 +872,18 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-7.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-7.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
                                                         <a class="button size-2 style-3" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-3.png')}}" alt=""></span>
                                                                 <span class="text">Add To Cart</span>
                                                             </span>
                                                         </a>
@@ -910,12 +910,12 @@
                                                 <div class="h6 animate-to-green"><a href="#">Smartphone vibe x2</a></div>
                                             </div>
                                             <div class="preview">
-                                                <img src="img/product-9.jpg" alt="" />
+                                                <img src="{{asset('web/img/product-9.jpg')}}" alt="" />
                                                 <div class="preview-buttons valign-middle">
                                                     <div class="valign-middle-content">
                                                         <a class="button size-2 style-2" href="#">
                                                             <span class="button-wrapper">
-                                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                                <span class="icon"><img src="{{asset('web/img/icon-1.png')}}" alt=""></span>
                                                                 <span class="text">Learn More</span>
                                                             </span>
                                                         </a>
