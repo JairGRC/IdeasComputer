@@ -19,7 +19,7 @@
     <link href="{{asset('web/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
 
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>EX ZO</title>
+    <title>IDEAS COMPUTERS</title>
 </head>
 <body>
 
@@ -41,7 +41,7 @@
                             <div class="entry language">
                                 <div class="title"><b>en</b></div>
                                 <div class="language-toggle header-toggle-animation">
-                                    <a href="index1.html">fr</a>
+                                    <a href="#">fr</a>
                                     <a href="index1.html">ru</a>
                                     <a href="index1.html">it</a>
                                     <a href="index1.html">sp</a>
@@ -60,7 +60,7 @@
                                 <div class="cart-toggle hidden-xs hidden-sm">
                                     <div class="cart-overflow">
                                         <div class="cart-entry clearfix">
-                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-1.png" alt="" /></a>
+                                            <a class="cart-entry-thumbnail" href="#"><img src="{{ asset('web/img/product-1.png')}}" alt="" /></a>
                                             <div class="cart-entry-description">
                                                 <table>
                                                     <tr>
@@ -83,7 +83,7 @@
                                             </div>
                                         </div>
                                         <div class="cart-entry clearfix">
-                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-2.png" alt="" /></a>
+                                            <a class="cart-entry-thumbnail" href="#"><img src="{{ asset('web/img/product-2.png')}}" alt="" /></a>
                                             <div class="cart-entry-description">
                                                 <table>
                                                     <tr>
@@ -106,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div class="cart-entry clearfix">
-                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-3.png" alt="" /></a>
+                                            <a class="cart-entry-thumbnail" href="#"><img src="{{asset('web/img/product-3.png')}}" alt="" /></a>
                                             <div class="cart-entry-description">
                                                 <table>
                                                     <tr>
@@ -139,7 +139,7 @@
                                         <div class="col-xs-6 text-right">
                                             <a class="button size-2 style-3" href="checkout1.html">
                                                 <span class="button-wrapper">
-                                                    <span class="icon"><img src="img/icon-4.png" alt=""></span>
+                                                    <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt=""></span>
                                                     <span class="text">proceed to checkout</span>
                                                 </span>
                                             </a>
@@ -160,7 +160,7 @@
                 <div class="content-margins">
                     <div class="row">
                         <div class="col-xs-3 col-sm-1">
-                            <a id="logo" href="index1.html"><img src="img/logo-2.png" alt="" /></a>  
+                            <a id="logo" href="index1.html"><img src="{{asset('web/img/logo-2.png')}}" alt="" /></a>  
                         </div>
                         <div class="col-xs-9 col-sm-11 text-right">
                             <div class="nav-wrapper">
@@ -208,10 +208,10 @@
                                                                         <div class="swiper-button-next style-1"></div>
                                                                         <div class="swiper-wrapper">
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-59.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-59.jpg')}}" alt="" />
                                                                             </div>
                                                                             <div class="swiper-slide">
-                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                                <img src="{{asset('web/img/product-61.jpg')}}" alt="" />
                                                                             </div>
                                                                         </div>
                                                                     </div> 
