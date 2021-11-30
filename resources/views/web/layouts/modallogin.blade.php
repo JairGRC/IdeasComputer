@@ -5,7 +5,7 @@
         <div class="layer-close"></div>
         <div class="popup-container size-1">
             <div class="popup-align">
-                <h3 class="h3 text-center">Log in</h3>
+                <h3 class="h3 text-center">Ingresar</h3>
                 <div class="empty-space col-xs-b30"></div>
                 <input class="simple-input" type="text" value="" placeholder="Your email" />
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
@@ -65,16 +65,42 @@
         <div class="layer-close"></div>
         <div class="popup-container size-1">
             <div class="popup-align">
-                <h3 class="h3 text-center">register</h3>
-                <div class="empty-space col-xs-b30"></div>
-                <input class="simple-input" type="text" value="" placeholder="Your name" />
+                <form method="POST" action="{{ route('register') }}">
+                    @csrf
+                <h3 class="h3 text-center">Registrar</h3>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="text" value="" placeholder="Your email" />
+                <div>
+                    <input id="name"  placeholder="Nombre" class="simple-input @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus />
+                    @error('name')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+                </div>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" placeholder="Enter password" />
+                <div>
+                    <input id="email" name="email" placeholder="Email" class="simple-input @error('email') is-invalid @enderror " type="email" value="{{ old('email') }}" required autocomplete="email"  />
+                            @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                </div>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" placeholder="Repeat password" />
+                <div>
+                    <input id="password" name="password" class="simple-input @error('password') is-invalid @enderror" type="password"  placeholder="Contraseña" required autocomplete="new-password" />
+                            @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                </div>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                <div>
+                    <input id="password-confirm" name="password_confirmation" class="simple-input" type="password"  placeholder="Repetir contraseña"   required autocomplete="new-password"/>
+                </div>
+                <div class="empty-space col-xs-b10 col-sm-b20"></div>
+
                 <div class="row">
                     <div class="col-sm-7 col-xs-b10 col-sm-b0">
                         <div class="empty-space col-sm-b15"></div>
@@ -83,12 +109,19 @@
                         </label>
                     </div>
                     <div class="col-sm-5 text-right">
-                        <a class="button size-2 style-3" href="#">
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Register') }}
+                                </button>
+                            </div>
+                        </div>
+                     {{--    <a class="button size-2 style-3" href="#">
                             <span class="button-wrapper">
                                 <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
-                                <span class="text">submit</span>
+                                <span class="text">Registrar</span>
                             </span>
-                        </a>  
+                        </a>   --}}
                     </div>
                 </div>
                 <div class="popup-or">
@@ -120,6 +153,7 @@
                         </a>
                     </div>
                 </div>
+                </form>
             </div>
             <div class="button-close"></div>
         </div>
