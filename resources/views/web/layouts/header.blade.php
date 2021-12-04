@@ -7,9 +7,8 @@
                     <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">ideas_computers@hotmail.com</a></div>
                 </div>
                 <div class="col-md-7 col-md-text-right">
-                    <div class="entry"><a class="open-popup" data-rel="1"><b>Login</b></a>&nbsp; or &nbsp;<a class="open-popup" data-rel="2"><b>Registro</b></a></div>
-                    
-                    
+                    <div class="entry"><a class="open-popup" data-rel="1"><b>Login</b></a>&nbsp; or &nbsp;<a href="{{route('register')}}"><b>Registro</b></a></div>
+
                     <div class="entry hidden-xs hidden-sm cart">
                         <a href="cart.html">
                             <b class="hidden-xs">Tu carrito</b>

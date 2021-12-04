@@ -5,26 +5,45 @@
         <div class="layer-close"></div>
         <div class="popup-container size-1">
             <div class="popup-align">
+                <form method="POST" action="{{route('login')}}">
+                    @csrf
                 <h3 class="h3 text-center">Ingresar</h3>
                 <div class="empty-space col-xs-b30"></div>
-                <input class="simple-input" type="text" value="" placeholder="Your email" />
+                <div>
+                    <input id="email" name="email" type="email" value="{{ old('email') }}" class="simple-input @error('email') is-invalid @enderror"  placeholder="Email"  required autocomplete="email" autofocus/>
+                        @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                </div>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" placeholder="Enter password" />
+                <div>
+                    <input id="password" name="password" class="simple-input  @error('password') is-invalid @enderror" type="password" placeholder="Enter password" required autocomplete="current-password"/>
+                        @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                </div>
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
                 <div class="row">
                     <div class="col-sm-6 col-xs-b10 col-sm-b0">
                         <div class="empty-space col-sm-b5"></div>
-                        <a class="simple-link">Forgot password?</a>
+                        <a class="simple-link">¿Olvidate contraseña?</a>
                         <div class="empty-space col-xs-b5"></div>
-                        <a class="simple-link">register now</a>
+                        <a class="open-popup" data-rel="2">Registrar ahora</a>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <a class="button size-2 style-3" href="#">
+                        <button type="submit" class="btn btn-primary">
+                            {{ __('Login') }}
+                        </button>
+                        {{-- <a class="button size-2 style-3" href="#">
                             <span class="button-wrapper">
                                 <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                 <span class="text">submit</span>
                             </span>
-                        </a>  
+                        </a>   --}}
                     </div>
                 </div>
                 <div class="popup-or">
@@ -56,11 +75,12 @@
                         </a>
                     </div>
                 </div>
+                </form>
             </div>
             <div class="button-close"></div>
         </div>
     </div>
-
+{{-- 
     <div class="popup-content" data-rel="2">
         <div class="layer-close"></div>
         <div class="popup-container size-1">
@@ -116,12 +136,12 @@
                                 </button>
                             </div>
                         </div>
-                     {{--    <a class="button size-2 style-3" href="#">
+                        <a class="button size-2 style-3" href="#">
                             <span class="button-wrapper">
                                 <span class="icon"><img src="{{asset('web/img/icon-4.png')}}" alt="" /></span>
                                 <span class="text">Registrar</span>
                             </span>
-                        </a>   --}}
+                        </a>  
                     </div>
                 </div>
                 <div class="popup-or">
@@ -157,7 +177,7 @@
             </div>
             <div class="button-close"></div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="popup-content" data-rel="3">
         <div class="layer-close"></div>
