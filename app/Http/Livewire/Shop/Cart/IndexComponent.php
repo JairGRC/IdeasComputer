@@ -12,5 +12,19 @@ class IndexComponent extends Component
         return view('livewire.shop.cart.index-component',compact('cart_items'))
         ->extends('layouts.app')
         ->section('content');
+    
+    }
+    public function update_quantity($itemId,$quantity){
+        
+        \Cart::session(auth()->id())->update($itemId,[
+            'quantity'=>array(
+                'relative'=>false,
+                'value'=>$quantity
+            ),
+        ]);
+    }
+    public function delete_item($itemId){
+        \Cart::session(auth()->id())->remove($itemId);
+        //notificacion con this->emit
     }
 }
