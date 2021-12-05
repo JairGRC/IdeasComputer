@@ -1,8 +1,10 @@
 <?php
+
+use App\Http\Controllers\PaypalController;
 use App\Http\Livewire\Shop\Cart\IndexComponent as CartIndexComponent;
 use App\Http\Livewire\Shop\CheckoutComponent;
 use App\Http\Livewire\Shop\IndexComponent;
-use App\PaypalCheckout;
+
 use Illuminate\Support\Facades\Route;
 
 
@@ -22,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 });
  */
 
-Route::get('/',IndexComponent::class);
+Route::get('/',IndexComponent::class)->name('shop.index');
 
 Auth::routes();
 
@@ -32,7 +34,15 @@ Route::get('/cart',CartIndexComponent::class)->name('cart');
 Route::get('/checkout',CheckoutComponent::class)->name('checkout');
 
 // routas para paypal pagos
-Route::get('/paypal.success/{order}',[CheckoutComponent::class,
+Route::get('/paypal-success/{order}',[PaypalController::class,
 'getExpressCheckoutSuccess'])->name('paypal.success');
-Route::get('/paypal.cancel',[CheckoutComponent::class,'cancelPage'])->name('paypal.cancel');
+Route::get('/paypal-cancel',[PaypalController::class,'cancelPage'])->name('paypal.cancel');
 
+// Routa paypal controlador
+Route::get('/paypal/checkout/{order}',[PaypalController::class,'getExpressCheckout'])
+->name('paypal.checkout');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
