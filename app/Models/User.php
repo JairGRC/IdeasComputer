@@ -41,4 +41,7 @@ class User extends \TCG\Voyager\Models\User
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function shop(){
+        return $this->hasOne(Shop::class,'user_id');
+    }
 }

@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Shop;
 use Illuminate\Database\Seeder;
-use App\Models\Product;
-class ProductSeeder extends Seeder
+
+class ShopSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,8 +14,9 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        Product::factory()->count(30)->create([
-            'shop_id'=>1,
+        //
+        Shop::factory()->create([
+            'user_id'=>4,
         ]);
     }
 }

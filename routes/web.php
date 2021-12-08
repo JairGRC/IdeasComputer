@@ -4,7 +4,7 @@ use App\Http\Controllers\PaypalController;
 use App\Http\Livewire\Shop\Cart\IndexComponent as CartIndexComponent;
 use App\Http\Livewire\Shop\CheckoutComponent;
 use App\Http\Livewire\Shop\IndexComponent;
-
+use App\Http\Livewire\Shop\RegisterComponent;
 use Illuminate\Support\Facades\Route;
 
 
@@ -42,6 +42,8 @@ Route::get('/paypal-cancel',[PaypalController::class,'cancelPage'])->name('paypa
 Route::get('/paypal/checkout/{order}',[PaypalController::class,'getExpressCheckout'])
 ->name('paypal.checkout');
 
+// RUTA 
+Route::get('/register-shop',RegisterComponent::class)->name('register.shop');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

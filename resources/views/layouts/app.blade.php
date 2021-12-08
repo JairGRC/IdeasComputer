@@ -40,6 +40,13 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="{{ route('register.shop') }}">
+                                Registrar mi tienda
+                            </a>
+                            
+                         </li>
 
                         <li class="nav-item">
                            {{--  <i class="fas fa-shopping-cart"></i>
